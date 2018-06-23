@@ -43,9 +43,11 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+### Scoped Scss
 
-Specify what it takes to deploy your app.
+This project uses scoped scss for an easier development, just create a file inside `app/styles/component-styles` with the name of your component and thats it, all the classes defined inside will only affect to that component.
+
+This is thanks to [ember-component-css](https://github.com/ebryn/ember-component-css).
 
 ## Further Reading / Useful Links
 
